@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "allowJs": true,
+        "target": "ES6",
+        "noEmit": false,
+        "isolatedModules": false,
+        "strict": false,
+        "esModuleInterop": true,
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+        // "sourceMap": true,
+        // "declaration": true,
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.js"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}

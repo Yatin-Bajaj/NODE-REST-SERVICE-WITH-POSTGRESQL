@@ -14,7 +14,9 @@ Steps to install the project:
 Instructions on how to use the project:
 
 1. Run the project: `npm start`
-2. Open the project in a web browser: `http://localhost:3000/`
+2. Open Your terminal - you will be prompted with : `http://localhost:3000/`
+3. You are ready to go.
+4. start sending request
 
 # API Reference
 
