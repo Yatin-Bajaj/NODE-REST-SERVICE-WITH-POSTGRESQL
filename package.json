@@ -1,0 +1,45 @@
+{
+  "name": "postgresql-and-layered-architecture",
+  "version": "1.0.0",
+  "description": "REST SERVICE WITH POSTRGRESQL AND LAYERED ARCHITECTURE",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "dev": "webpack --config webpack.config.js --progress --mode development",
+    "build": "webpack --config webpack.config.js --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yatin-Bajaj/NODE-REST-SERVICE-WITH-POSTGRESQL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yatin-Bajaj/NODE-REST-SERVICE-WITH-POSTGRESQL/issues"
+  },
+  "homepage": "https://github.com/Yatin-Bajaj/NODE-REST-SERVICE-WITH-POSTGRESQL#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.8.4",
+    "pg": "^8.10.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.29.3",
+    "sequelize-cli": "^6.6.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.15.3",
+    "@types/pg": "^8.6.6",
+    "@types/uuid": "^9.0.1",
+    "babel-loader": "^9.1.2",
+    "nodemon": "^2.0.21",
+    "ts-loader": "^9.4.2",
+    "webpack": "^5.76.1",
+    "webpack-cli": "^5.0.1"
+  }
+}
