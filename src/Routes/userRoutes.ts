@@ -25,7 +25,10 @@ router.post(
   postUser
 );
 
-router.put("/update-user/:userId", updateUser);
+router.put("/update-user/:userId",
+  userValidationMiddelware(schema.bodyUpdateSchema),
+  updateUser
+);
 
 router.delete("/delete-user/:userId", deleteUser);
 
